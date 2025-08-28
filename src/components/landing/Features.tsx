@@ -1,5 +1,3 @@
-import { ArrowRight } from 'lucide-react';
-
 export function Features() {
   return (
     <section className="py-24 bg-background">
@@ -32,7 +30,7 @@ export function Features() {
             <div className="max-w-md">
               <div className="mt-8 h-px w-full bg-gray-300/60"></div>
               <p className="mt-4 text-[15px] leading-5 text-muted-foreground">
-                An operator’s dream. Mercury combines the speed, simplicity, and
+                An operator's dream. Mercury combines the speed, simplicity, and
                 smarts that I need to get back to running my business. Search for
                 data or actions, all at your fingertips.
               </p>
@@ -47,27 +45,29 @@ export function Features() {
           {/* Cartes du bas (même wrapper => même bord gauche) */}
           <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2">
             {/* Carte 1 */}
-            <div className="relative rounded-2xl bg-[#EFEFF6] p-6 sm:p-8 w-full">
+            <div className="relative rounded-xl bg-[#EFEDF3] p-5 w-full flex flex-col h-full">
               <div className="h-56 sm:h-64"></div>
-              <div>
+              <div className="flex-1 flex flex-col">
                 <h3 className="text-lg font-semibold text-foreground">
                   Send assets backed effortlessly
                 </h3>
                 <p className="mt-2 text-sm text-muted-foreground">
                   Set auto-sync feature to manage and monitor the coverage ratio.
                 </p>
-                <button
-                  className="mt-5 inline-flex items-center rounded-full bg-[#E7EBF9] px-4 py-2 text-sm font-medium text-[#1F2A44] hover:bg-[#dfe5f9] transition"
-                >
-                  Explore Auto-Reload
-                </button>
+                <div className="mt-auto pt-4">
+                  <button
+                    className="inline-flex items-center rounded-full bg-[#DDDFF2] px-4 py-2 text-sm font-medium text-[#1F2A44] hover:bg-[#d0d3f0] transition"
+                  >
+                    Explore Auto-Reload
+                  </button>
+                </div>
               </div>
             </div>
 
             {/* Carte 2 */}
-            <div className="relative rounded-2xl bg-[#EFEFF6] p-6 sm:p-8 w-full">
+            <div className="relative rounded-xl bg-[#EFEDF3] p-5 w-full flex flex-col h-full">
               <div className="h-56 sm:h-64"></div>
-              <div>
+              <div className="flex-1 flex flex-col">
                 <h3 className="text-lg font-semibold text-foreground">
                   Unlock on demand assets financing with A grade partners
                   <sup className="ml-0.5 align-super text-xs">2</sup>
@@ -77,12 +77,12 @@ export function Features() {
                   <sup className="ml-0.5 align-super text-xs">3</sup>
                 </p>
 
-                <div className="relative mt-5 inline-block">
-                  <span className="absolute -top-3 left-6 inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-medium text-green-700 shadow-sm">
+                <div className="relative mt-auto pt-4">
+                  <span className="absolute top-1 left-20 inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-medium text-green-700 shadow-sm">
                     Coming Soon
                   </span>
                   <button
-                    className="inline-flex items-center rounded-full bg-[#E7EBF9] px-4 py-2 text-sm font-medium text-[#1F2A44] hover:bg-[#dfe5f9] transition"
+                    className="inline-flex items-center rounded-full bg-[#DDDFF2] px-4 py-2 text-sm font-medium text-[#1F2A44] hover:bg-[#d0d3f0] transition"
                   >
                     Explore Funding
                   </button>

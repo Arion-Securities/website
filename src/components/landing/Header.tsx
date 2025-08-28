@@ -23,13 +23,13 @@ export function Header() {
       
       {/* Right side buttons */}
       <div className="flex items-center space-x-4">
-        <LanguageSwitcher />
         <Button variant="ghost" asChild className="rounded-full">
           <Link href="/login">Login</Link>
         </Button>
         <Button asChild className="rounded-full bg-[#004F71] hover:bg-[#004F71]/90 text-white">
           <Link href="#contact">Contact Sales</Link>
         </Button>
+        <LanguageSwitcher />
       </div>
     </header>
   );

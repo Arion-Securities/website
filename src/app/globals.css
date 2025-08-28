@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import "tailwindcss";
 
 /* Reset de base */
@@ -12,8 +13,10 @@ html, body {
 }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Lato', system-ui, sans-serif;
   line-height: 1.6;
+  background-color: #FBFCFD;
+  color: #2A2924;
 }
 
 /* Container personnalisé pour le centrage */
@@ -21,6 +24,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+/* Styles pour les inputs */
+input[type="email"], input[type="text"], textarea {
+  background-color: #EDEEF2;
+  transition: background-color 0.2s ease;
+}
+
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
+  background-color: #FFFFFF;
+  outline: none;
 }
 
 /* Responsive */

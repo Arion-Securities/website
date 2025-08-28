@@ -10,7 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter', 'system-ui', 'sans-serif'],
+        lato: ['Lato', 'system-ui', 'sans-serif'],
+        sans: ['Lato', 'system-ui', 'sans-serif'],
       },
       colors: {
         primary: {
@@ -34,14 +35,14 @@ export default {
           foreground: '#ffffff'
         },
         border: '#e5e7eb',
-        input: '#e5e7eb',
+        input: '#EDEEF2',
         ring: '#004F71',
-        background: '#f5f5fa',
-        foreground: '#333333',
+        background: '#FBFCFD',
+        foreground: '#2A2924',
         card: '#ffffff',
-        'card-foreground': '#333333',
+        'card-foreground': '#2A2924',
         popover: '#ffffff',
-        'popover-foreground': '#333333'
+        'popover-foreground': '#2A2924'
       },
       borderRadius: {
         lg: '0.5rem',
