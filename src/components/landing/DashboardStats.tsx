@@ -64,9 +64,9 @@ export function DashboardStats() {
             {/* Bouton en bas avec badge */}
             <div className="mt-auto pt-6">
               <div className="relative inline-block">
-                <span className="absolute -top-3 left-6 inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-medium text-green-700 shadow-sm">
-                  Coming Soon
-                </span>
+              <span className="absolute -top-3 right-0 translate-x-8 inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-medium text-green-700 shadow-sm whitespace-nowrap">
+  Coming Soon
+</span>
                 <button className="inline-flex h-10 items-center justify-center rounded-full bg-[#E7EBF9] px-5 text-xs font-medium text-[#1F2A44] hover:bg-[#dfe5f9] transition">
                   Grow with Marketplace
                 </button>
@@ -89,9 +89,9 @@ export function DashboardStats() {
             {/* Bouton en bas avec badge */}
             <div className="mt-auto pt-6">
               <div className="relative inline-block">
-                <span className="absolute -top-3 left-6 inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-medium text-green-700 shadow-sm">
-                  Coming Soon
-                </span>
+              <span className="absolute -top-3 right-0 translate-x-8 inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-[10px] font-medium text-green-700 shadow-sm whitespace-nowrap">
+                Coming Soon
+              </span>
                 <button className="inline-flex h-10 items-center justify-center rounded-full bg-[#E7EBF9] px-5 text-xs font-medium text-[#1F2A44] hover:bg-[#dfe5f9] transition">
                   Create SAGA
                 </button>

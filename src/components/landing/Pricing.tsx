@@ -137,7 +137,7 @@ export function Pricing() {
       assets: {
         reassignment: "Unlimited assets reassignment",
         backed: "Unlimited contracts",
-        reload: "🛡️ Custom Supplier Guard",
+        reload: "Custom Supplier Guard",
         reloadLimit: "📈 SmartCycle Dashboard"
       },
       funding: {
@@ -210,9 +210,10 @@ export function Pricing() {
           {/* Carte gris claire derrière les 3 plans */}
           <div className="bg-gray-100 rounded-2xl p-8">
             <div className="grid grid-cols-3 gap-6">
-              {/* Arion One - Background style */}
-              <div className="p-6">
-                <div className="mb-6">
+              {/* Arion One - Card */}
+              <div className="p-6 h-full flex flex-col">
+                {/* Bloc supérieur à hauteur fixe pour aligner les boutons */}
+                <div className="mb-6 min-h-32">
                   <h3 className="text-lg font-semibold text-foreground mb-2">{currentPlans.arionOne.name}</h3>
                   <span className="text-2xl font-bold text-foreground">{currentPlans.arionOne.price}</span>
                   <span className="text-sm text-muted-foreground">/ Month</span>
@@ -222,6 +223,7 @@ export function Pricing() {
                   </p>
                 </div>
 
+                {/* Bouton aligné */}
                 <Button
                   className="mb-6 rounded-full bg-[#004F71] hover:bg-[#004F71]/90 text-white px-14"
                   asChild
@@ -229,6 +231,7 @@ export function Pricing() {
                   <Link href="/signup">Open Account</Link>
                 </Button>
 
+                {/* Contenu bas */}
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-medium text-foreground mb-3">Business</h4>
@@ -305,14 +308,16 @@ export function Pricing() {
               <div className="col-span-2 bg-white rounded-lg relative">
                 <div className="grid grid-cols-2">
                   {/* Arion Plus */}
-                  <div className="p-6 relative">
-                    <div className="mb-6">
+                  <div className="p-6 h-full flex flex-col">
+                    {/* Bloc supérieur à hauteur fixe */}
+                    <div className="mb-6 min-h-32">
                       <h3 className="text-lg font-semibold text-foreground mb-2">{currentPlans.arionPlus.name}</h3>
                       <span className="text-2xl font-bold text-foreground">{currentPlans.arionPlus.price}</span>
                       <span className="text-sm text-muted-foreground">/ Month</span>
                       <p className="text-xs text-muted-foreground">{currentPlans.arionPlus.description}</p>
                     </div>
                     
+                    {/* Bouton aligné */}
                     <Button 
                       className="mb-6 rounded-full bg-[#EFEFF6] hover:bg-[#EFEFF6]/90 text-secondary-foreground px-14"
                       asChild
@@ -320,6 +325,7 @@ export function Pricing() {
                       <Link href="/signup">Open Account</Link>
                     </Button>
 
+                    {/* Contenu bas */}
                     <div className="space-y-6">
                       <div>
                         <h4 className="font-medium text-foreground mb-3">Business</h4>
@@ -403,13 +409,15 @@ export function Pricing() {
                   </div>
 
                   {/* Arion Enterprise */}
-                  <div className="p-6 border-l border-gray-200">
-                    <div className="mb-6">
+                  <div className="p-6 border-l border-gray-200 h-full flex flex-col">
+                    {/* Bloc supérieur à hauteur fixe */}
+                    <div className="mb-6 min-h-32">
                       <h3 className="text-lg font-semibold text-foreground mb-2">{currentPlans.arionEnterprise.name}</h3>
                       <span className="text-2xl font-bold text-foreground">{currentPlans.arionEnterprise.price}</span>
                       <p className="text-xs text-muted-foreground">{currentPlans.arionEnterprise.description}</p>
                     </div>
                     
+                    {/* Bouton aligné */}
                     <Button 
                       className="mb-6 rounded-full bg-[#EFEFF6] hover:bg-[#EFEFF6]/90 text-secondary-foreground px-14"
                       asChild
@@ -417,6 +425,7 @@ export function Pricing() {
                       <Link href="#contact">Get a quote</Link>
                     </Button>
 
+                    {/* Contenu bas */}
                     <div className="space-y-6">
                       <div>
                         <h4 className="font-medium text-foreground mb-3">Business</h4>
@@ -505,6 +514,7 @@ export function Pricing() {
                 </div>
               </div>
             </div>
+
             <div className="flex justify-center">
               <Button
                 className="mt-7 rounded-full bg-[#004F71] hover:bg-[#004F71]/90 text-white px-6"
