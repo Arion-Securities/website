@@ -90,11 +90,11 @@ export function Pricing() {
         audit: "Delegated audit on request"
       },
       assets: {
-        reassignment: "∞ Unlimited assets access",
+        reassignment: " Unlimited assets access",
         backed: "Manage one contract/company"
       },
       funding: {
-        history: "∞ Unlimited transactions history",
+        history: " Unlimited transactions history",
         collaterize: "Access funding informations a day"
       },
       team: "up to 3 users/month"
@@ -110,16 +110,16 @@ export function Pricing() {
         additional: "Delegated audit on request"
       },
       assets: {
-        reassignment: "∞ Unlimited assets access",
+        reassignment: "Unlimited assets access",
         backed: "Manage up to 5 contracts/company",
-        reload: "Supplier Guard",
+        reload: " Supplier Guard",
         reloadLimit: "Enhanced dashboard monitoring"
       },
       funding: {
-        history: "∞ Unlimited transaction history",
+        history: "Unlimited transaction history",
         collaterize: "Real time funding informations",
-        auto: "⚙️ Auto Funding settings",
-        marketplace: "🏢 Companies Marketplace"
+        auto: "Auto Funding settings",
+        marketplace: "Companies Marketplace"
       },
       team: "up to 5 users/month",
       teamAdditional: "+ $5/additional active user"
@@ -135,16 +135,16 @@ export function Pricing() {
         additional: "Complete legal upstream"
       },
       assets: {
-        reassignment: "∞ Unlimited assets reassignment",
+        reassignment: "Unlimited assets reassignment",
         backed: "Unlimited contracts",
-        reload: "Custom Supplier Guard",
-        reloadLimit: "SmartCycle Dashboard"
+        reload: "🛡️ Custom Supplier Guard",
+        reloadLimit: "📈 SmartCycle Dashboard"
       },
       funding: {
-        history: "∞ Unlimited transaction history",
+        history: "Unlimited transaction history",
         collaterize: "Custom Collaterize funding",
-        fix: "🎯 Fix Funding settings",
-        partners: "🏢 Off Marketplace"
+        fix: "Fix Funding settings",
+        partners: "Off Marketplace"
       },
       team: "Unlimited users/month"
     }
