@@ -24,7 +24,7 @@ export function Hero() {
               <Input 
                 type="email" 
                 placeholder="Enter your email" 
-                className="pr-32 rounded-full border-gray-300 text-foreground placeholder:text-foreground/60 focus:bg-white focus:border-primary transition-all duration-200"
+                className="pr-32 rounded-full border-gray-300 text-foreground placeholder:text-foreground/60 focus:bg-white focus:outline-none focus:ring-0 focus:border-gray-300 transition-all duration-200"
               />
               <Button 
                 size="sm" 
